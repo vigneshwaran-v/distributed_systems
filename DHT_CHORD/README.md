@@ -1,0 +1,1 @@
+This is a simple Distributed Hash Table based on CHORD protocol.
