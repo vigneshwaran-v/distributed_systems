@@ -1,1 +1,1 @@
-This is a simple Distributed Hash Table based on CHORD protocol.
+This is a simple Distributed Hash Table designed based on CHORD protocol.
