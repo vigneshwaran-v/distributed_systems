@@ -106,6 +106,7 @@ public class OnTestClickListener implements OnClickListener {
 
 					int keyIndex = resultCursor.getColumnIndex(KEY_FIELD);
 					int valueIndex = resultCursor.getColumnIndex(VALUE_FIELD);
+
 					if (keyIndex == -1 || valueIndex == -1) {
 						Log.e(TAG, "Wrong columns");
 						resultCursor.close();
@@ -122,6 +123,7 @@ public class OnTestClickListener implements OnClickListener {
 
 					String returnKey = resultCursor.getString(keyIndex);
 					String returnValue = resultCursor.getString(valueIndex);
+					Log.e(TAG,"Key is "+returnKey+" value is "+returnValue);
 					if (!(returnKey.equals(key) && returnValue.equals(val))) {
 						Log.e(TAG, "(key, value) pairs don't match\n");
 						resultCursor.close();
