@@ -11,33 +11,25 @@ This is a simple Distributed Hash Table designed based on CHORD protocol which s
 	
 ## Steps to the test the application:
 
-	1. Run the following commands to setup the AVDs.
+1. Run the following commands to setup the AVDs,
 	
-		```
-		python create_avd.py
-		
-		python updateavd.py
-		```
-		
-	2. To start the AVDs use,
-		
-		```
-		python run_avd.py 5
-		```
-		
-	3. To setup the emulator network use,
-	
-		```
-		python set_redir.py 10000
-		```
-		
-	4. Run the grader using the command,
-	
-		```
-		.\simpledht-grading.exe <apk path>
-		```
-		
-	 Provide the appropriate apk file path as the command line argument.
+```
+python create_avd.py
+python updateavd.py
+```
+2. To start the AVDs use,
+```
+python run_avd.py 5
+```
+3. To setup the emulator network use,
+```
+python set_redir.py 10000
+```		
+4. Run the grader using the command,
+```
+.\simpledht-grading.exe <apk path>
+```		
+Provide the appropriate apk file path as the command line argument.
 	 
 	 
 ## Grading script tests the following:
