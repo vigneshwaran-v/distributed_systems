@@ -1,4 +1,4 @@
-#Distributed Hash Table based on CHORD
+# Distributed Hash Table based on CHORD
 
 This is a simple Distributed Hash Table designed based on CHORD protocol which supports inserts,deletes and query operations. The following features were implemented in this project:
 
@@ -9,11 +9,11 @@ This is a simple Distributed Hash Table designed based on CHORD protocol which s
 	3. Handled node joins to the Chord ring.
 	
 	
-#Steps to the test the application
+## Steps to the test the application:
 
 	1. Run the following commands to setup the AVDs.
 	
-		 ```
+		```
 		python create_avd.py
 		
 		python updateavd.py
@@ -40,7 +40,7 @@ This is a simple Distributed Hash Table designed based on CHORD protocol which s
 	 Provide the appropriate apk file path as the command line argument.
 	 
 	 
-#Grading script tests the following:
+## Grading script tests the following:
 
 	1) Local insert/query/delete operations work on a DHT containing a single AVD.
 	
